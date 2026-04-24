@@ -1,0 +1,40 @@
+body {
+  background-color: #444;
+  color: #f16e;
+}
+
+h1,
+h2 {
+  margin-bottom: 1em;
+  text-align: center;
+  background-color: #111;
+}
+
+.pricing-container {
+  border: 2px solid #f16e;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.pricing-card {
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 0 200px;
+}
+
+.basic-plan {
+  order: 0;
+}
+
+.pro-plan {
+  order: 1;
+  flex-grow: 2;
+}
+
+.premium-plan {
+  order: 2;
+}
